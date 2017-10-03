@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>s</title>
+	<!-- jQuery -->
+    <script src="./js/jquery.min.js"></script>
+ 
+    <!-- jQuery UI mouse draggable widget -->
+    <script src="./js/jquery-ui.min.js"></script>
+ 
+    <!-- Touch Event Support for jQuery UI -->
+    <script src="./js/jquery.ui.touch-punch.min.js"></script>
+ 
+    <!-- MA5 Slider -->
+    <link href="./css/ma5slider.min.css" rel="stylesheet" type="text/css">
+    <script src="./js/ma5slider.min.js"></script>
+ 
+    <!-- Call the script -->
+    <script>
+        $(window).on('load', function () {
+           $('.ma5slider').ma5slider();
+        });
+    </script>
+</head>
+<body>
+<div>
+	    <div class="ma5slider anim-horizontal horizontal-navs inside-navs">
+        <div class="slides">
+            <!-- children = slides -->
+            <a href="#slide-1"><img src="./images/01.jpg" alt=""></a>
+            <a href="#slide-2"><img src="./images/02.jpg" alt=""></a>
+            <a href="#slide-3"><img src="./images/03.jpg" alt=""></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

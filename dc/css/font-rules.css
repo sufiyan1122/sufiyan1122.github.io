@@ -1,0 +1,45 @@
+@font-face {
+    font-family: slider-quotes;
+    src: url('../fonts/James_Fajardo.ttf');
+}
+
+@font-face {
+    font-family: about-us-p;
+    src: url('../fonts/KozGoPr6N-Regular.otf');
+}
+
+@font-face {
+    font-family: navbar-li;
+    src: url('../fonts/KozGoPr6N-Medium.otf');
+}
+
+@font-face {
+    font-family: heading;
+    src: url('../fonts/KozGoPr6N-Medium.otf');
+}
+
+@font-face {
+    font-family: heading-light;
+    src: url('../fonts/KozGoPro-Medium.otf');
+}
+
+@font-face {
+    font-family: clients;
+    src: url('../fonts/KozGoPr6N-ExtraLight.otf');
+}
+
+@font-face {
+    font-family: services_text;
+    src: url('../fonts/KozGoPr6N-Medium.otf');
+}
+
+@font-face {
+    font-family: testimonials-para;
+    src: url('../fonts/KozGoPr6N-ExtraLight.otf');
+}
+
+@font-face {
+    font-family: footer_text;
+    src: url('../fonts/KozGoPr6N-ExtraLight.otf');
+}
+
