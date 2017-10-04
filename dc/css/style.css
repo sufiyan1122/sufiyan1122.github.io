@@ -878,7 +878,12 @@ padding-top:82px;
 }
 
 
-
-
+@media (min-width: 1500px) and (max-width:1800px) {
+.down_ar{
+position:absolute!important;
+right:0px!important;
+left:auto!important;
+}
+}
 
 /*high resolution style end*/
