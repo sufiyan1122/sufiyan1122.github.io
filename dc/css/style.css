@@ -919,4 +919,43 @@ line-height: 68px;
 
 
 
+@media (min-width: 1000px) {
+	.text_in_6{
+font-size: 95px;
+line-height: 68px;
+}
+.slText_6{
+    top: 69%!important;
+    right: -29%!important;
+    max-width: 50%!important;
+    left:auto!important;
+}
+
+.slText_1{
+    top: 53%!important;
+    left: 27%!important;
+    max-width: 56%!important;
+    
+}
+
+.slText_2{
+    top: 60%!important;
+    left: 20%!important;
+    max-width: 46%!important;
+    
+}
+
+.slText_3{
+    top: 78%!important;
+    left: 33%!important;
+    max-width: 60%!important;
+    
+}
+
+.slText_5{
+    top: 60%!important;
+    
+    
+}
+}
 /*high resolution style end*/
