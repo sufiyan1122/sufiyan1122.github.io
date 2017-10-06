@@ -409,6 +409,7 @@ bottom:100px;
 #testimonial4 .carousel-inner{
   width: 75%;
   margin: auto;
+  min-height: 400px;
 }
 #testimonial4 .carousel-inner:hover{
   cursor: -moz-grab;
@@ -851,7 +852,7 @@ line-height: 68px;
 }
 
 .carousel-control{
-  height:180px;
+  height:40px;
 }
 .services-body{
   width:85%;
@@ -883,7 +884,18 @@ line-height: 68px;
 }
 .testimonial4_slide p{
   font-style: testimonials-para;
-  font-size:24px;
+  font-size:20px;
+}
+.testimonial4_slide_2{
+	width:48%;
+}
+.testimonial4_slide_3{
+	width:51%!important;
+margin-right:0px!important;
+}
+.testimonial4_slide_5{
+	margin-right:0px;
+	width:47%;
 }
 
 .carousel-control {
@@ -959,3 +971,7 @@ line-height: 68px;
 }
 }
 /*high resolution style end*/
+
+.back_img{
+	min-width: 100%!important;
+}
