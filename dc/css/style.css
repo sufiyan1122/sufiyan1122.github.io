@@ -59,13 +59,16 @@ html,body
       right:5px!important;
     }
 
-@media (min-width: 1200px){
+@media (min-width: 1500px){
     
     .down_ar{
       position:absolute!important;
-      bottom:15px!important;
-      right:15px!important;
+      bottom: 0px!important;
+    right: -20px!important;
     }
+      .navbar-color li a span{
+  	color:#fff!important;
+  }
 
 }
 
@@ -126,7 +129,7 @@ html,body
 
 
 .ctrlPrev,.ctrlNext,.left,.right{
-  font-family: sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: 200!important;
 }
 
@@ -242,12 +245,12 @@ font-size: .8em;
 
 
 .para{
-  margin:20px 0px 20px 0px;
+  margin:46px 0px 25px 0px;
   font-size:14px;
   text-align:justify;
   font-family: about-us-p;
   line-height: 1.2em;
-  color: #000C;
+  color: rgb(70, 70, 70)!important;
 }
 
 .para-s{
@@ -381,7 +384,6 @@ bottom:100px;
  .ser-link a{
   text-decoration: none;
   color:#1F1D20;
-  letter-spacing: 1px;
   margin:5px;
   font-family: heading;
   letter-spacing: 3px;
@@ -673,14 +675,20 @@ font-size: 2em!important;
 input[type="text"],input[type="email"]{
   border:1px solid #6f6f6f;
   border-radius: 0px;
-  margin: 5px
+  margin: 5px;
+      padding: 30px 10px;
+    font-size: 20px;
+
 }
 
 #description{
-  height:132px;
+  height:215px;
  border:1px solid #6f6f6f;
   border-radius: 0px;
-  margin: 5px 
+  margin: 5px ;
+    font-size: 20px;
+
+
 }
 
 .send-msg{
@@ -702,8 +710,8 @@ input[type="text"],input[type="email"]{
 color:#1F1D20;
 background-color: #fff;
 text-decoration: none;
-padding:8px;
-margin:10px;
+ padding: 20px;
+    margin: 30px;
 border:1px solid #FFF;
 border-radius: 50%;
 
@@ -737,11 +745,11 @@ font-family: 'Roboto', sans-serif;;font-size: 15px;margin-top:5px;
 }
 
 .padding-30{
-  padding: 30px 0px;
+  padding: 45px 0px;
 }
 
 .social{
-  font-size: 17px!important;
+  font-size: 28px!important;
 }
 /*footer end*/
 
@@ -764,18 +772,25 @@ height:120px!important;
 .nav-container{
   width:90%;
 } 
+#site-logo {
+    position: relative;
+    vertical-align: bottom;
+    top:48px!important;
+  }
 
 .navbar-color li a{
-font-size: 25px;
-padding-top:95px;
+    font-size: 18px;
+    padding-top: 65px;
+        display: inline-block;
+    padding: 65px 0px 0px 0px;
 }
 
 .hp{
-  bottom:-20px;
+  bottom:-30px;
 }
 
 .navbar{
-  height:200px!important;
+  height:150px!important;
 }
 
 .text_in{
@@ -825,16 +840,16 @@ line-height: 68px;
 }
 
 .colon{
-  width: 200px;
-    height: 140px;
-    margin-left: -10px;
+width: 161px;
+    height: 110px;
+    margin-left: 15px;
     margin-top: -56px;
 }
 
 .para{
   margin-top: 40px 0px 5px 0px;
-  font-size: 24px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .back_lg{
@@ -844,11 +859,12 @@ line-height: 68px;
   }
 
 .portfolio-h h2,.services-h h2,.testimonial-h h2,.contact-us h2{
-  font-size:46px; 
+  font-size:40px;
+    letter-spacing: 10px; 
 }
 
 .portfolio-h h6,.services-h h6,.testimonial-h h6,.contact-us h6{
-  font-size:23px; 
+  font-size:21px; 
 }
 
 .carousel-control{
@@ -862,14 +878,15 @@ line-height: 68px;
 }
 
 .ser-h4{
-  font-size:26px;
-  font-style: services_text;
-  bottom: 30px;
+  font-size: 22px;
+    font-style: services_text;
+    bottom: 30px;
+    letter-spacing: 6px;
   
 }
 
 .ser-link{
-  font-size:26px;
+  font-size:22px;
   font-style: services_text;
 }
 .ser-up1{
@@ -917,7 +934,7 @@ margin-right:0px!important;
 }
 
 .footer_brand{
-  width:350px!important;
+  width:450px!important;
 }
 .padding-30-t{
   padding:50px 0px!important;
