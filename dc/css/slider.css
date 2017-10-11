@@ -54,11 +54,11 @@
 
 .slider [class*="ctrl"] {
     position: absolute;
-    top: 70%;
+    top: 75%;
     color: #fff;
     font-size: 100px;
     font-weight: bold;
-    margin-top: -42.5px;
+    margin-top: 30px;
     cursor: pointer;
 }
 

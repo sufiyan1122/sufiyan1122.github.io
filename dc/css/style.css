@@ -12,6 +12,7 @@ html,body
 .navbar-nav > li {
     float: none;
     vertical-align: bottom;
+
   }
   #site-logo {
     position: relative;
@@ -69,6 +70,7 @@ html,body
       .navbar-color li a span{
   	color:#fff!important;
   }
+
 
 }
 
@@ -129,10 +131,22 @@ html,body
 
 
 .ctrlPrev,.ctrlNext,.left,.right{
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-weight: 200!important;
+  min-height:40px;
+  min-width: 40px;
+  background-repeat: no-repeat;
+  color:transparent!important;
+  
 }
 
+.ctrlPrev{
+	
+  background-image: url("../image/arrow/left-arrow.png");
+}
+
+.ctrlNext{
+	
+  background-image: url("../image/arrow/right-arrow.png");
+}
 
 
 
@@ -274,7 +288,7 @@ font-size: .8em;
     width: 40px;
     background: transparent!important; 
     opacity:1; 
-    margin-bottom: 330px;
+    margin-bottom: 8%;
     margin-top: auto;
     font-size: 2em;
 }
@@ -292,12 +306,14 @@ font-size: .8em;
 .port-color-dark h6{
   color:#9E9E9E;
   font-size: 14px;
+  margin-left: -6px!important;
   font-family: heading-light;
 
 }
 .port-color-dark h2{
   font-family: heading;
   letter-spacing: 7px;
+  margin-left: 6px;
 }
 .padding-15{
   padding:15px;
@@ -331,6 +347,7 @@ background: #428bca;
 
 .port-color-white h6{
 margin-bottom:-20px;
+margin-left: -10px!important;
 color:#1F1D20;
 font-size: 14px;
   font-family: heading;
@@ -340,6 +357,8 @@ font-size: 14px;
 .port-color-white h2{
   font-family: heading;
   letter-spacing: 7px;
+  margin-left: 6px;
+
 }
 
 .shade{
@@ -603,6 +622,13 @@ color: #AAA;
   }
 }
 
+@media (min-width: 768px){
+	.navbar-collapse{
+		 margin-right: -3%!important;
+
+	}
+}
+
 @media (min-width: 768px) and (max-width: 991px){
   .testimonial4_control_button .carousel-control.left{
     left: 5%;
@@ -696,6 +722,8 @@ input[type="text"],input[type="email"]{
   border:1px solid #1F1D20;
   color:#fff;
   border-radius: 0px;
+      font-size: 20px;
+
 }
 
 .send-msg:hover{
@@ -727,7 +755,8 @@ background-color:#1F1D20;
 
 .social-media a i{
   width:20px;
-  height:20px;
+  height: 32px;
+  vertical-align: middle;
 }
 .social-media{
   margin-top:40px;
@@ -776,6 +805,7 @@ height:120px!important;
     position: relative;
     vertical-align: bottom;
     top:48px!important;
+
   }
 
 .navbar-color li a{
@@ -794,7 +824,7 @@ height:120px!important;
 }
 
 .text_in{
- font-size: 95px;
+ font-size: 90px;
 line-height: 68px;
 }
 .slText{
@@ -859,12 +889,13 @@ width: 161px;
   }
 
 .portfolio-h h2,.services-h h2,.testimonial-h h2,.contact-us h2{
-  font-size:40px;
-    letter-spacing: 10px; 
+  font-size:35px;
+    letter-spacing: 7px; 
 }
 
 .portfolio-h h6,.services-h h6,.testimonial-h h6,.contact-us h6{
-  font-size:21px; 
+  font-size:17px; 
+
 }
 
 .carousel-control{
@@ -986,6 +1017,226 @@ line-height: 68px;
     
     
 }
+}
+
+@media (min-width: 1000px) and (max-width:1499px) {
+
+/*start...*/
+.nav-container{
+  width:90%;
+} 
+#site-logo {
+    position: relative;
+    vertical-align: bottom;
+    top:48px!important;
+
+  }
+
+.navbar-color li a{
+    font-size: 11px;
+    padding-top: 65px;
+        display: inline-block;
+    padding: 40px 0px 0px 0px;
+}
+
+.hp{
+  bottom:-20px;
+}
+
+.navbar{
+  height:100px!important;
+}
+.down_ar {
+    position: absolute !important;
+    bottom: 0px !important;
+    right: -15px !important;
+}
+
+.text_in{
+ font-size: 40px;
+line-height: 40px;
+}
+.slText{
+  padding:0 116px 0 220px!important;
+}
+
+.text_in_6{
+font-size: 95px;
+line-height: 68px;
+}
+.slText_6{
+    top: 69%!important;
+    right: -29%!important;
+    max-width: 50%!important;
+    left:auto!important;
+}
+
+.slText_1{
+    top: 53%!important;
+    left: 27%!important;
+    max-width: 56%!important;
+    
+}
+
+.slText_2{
+    top: 60%!important;
+    left: 20%!important;
+    max-width: 46%!important;
+    
+}
+
+.slText_3{
+    top: 78%!important;
+    left: 33%!important;
+    max-width: 60%!important;
+    
+}
+
+.slText_5{
+    top: 60%!important;
+    
+    
+}
+
+.colon{
+width: 63px!important;
+height: 40px!important;
+margin-left: 30px;
+left: 150px;
+position: absolute;
+width: 100px;
+height: 60px;
+margin-right: -43px;
+margin-top: 0px!important;
+}
+
+.para{
+  margin-top: 40px 0px 5px 0px;
+  font-size: 10px;
+line-height: 15px;
+}
+.back_lg{
+      background-image: url(../image/about-us-back.png)!important;
+      background-repeat: no-repeat;
+      background-position: right bottom;
+  }
+
+.portfolio-h h2,.services-h h2,.testimonial-h h2,.contact-us h2{
+  font-size:20px!important;
+    letter-spacing: 7px; 
+}
+
+.padding-30{
+	padding: 20px 0px;
+}
+
+.portfolio-h h6,.services-h h6,.testimonial-h h6,.contact-us h6{
+  font-size:10px!important; 
+
+}
+
+.carousel-control{
+  height:40px;
+}
+.services-body{
+  width:85%;
+}
+.services-body img{
+  min-width:100%;
+}
+
+.ser-h4{
+  font-size: 12px;
+    font-style: services_text;
+    bottom: 30px;
+    letter-spacing: 6px;
+  
+}
+
+.ser-link{
+  font-size:12px;
+  font-style: services_text;
+}
+.ser-up1{
+  bottom:120px;
+}
+input[type="text"], input[type="email"]{
+	padding: 0px 6px!important;
+	font-size: 10px;
+}
+
+#description{
+	height:132px;
+	font-size: 12px;
+}
+
+.send-msg{
+	font-size: 12px;
+}
+.ser-up{
+  bottom:85px;
+}
+.testimonial4_header{
+  width:650px;
+}
+.testimonial4_slide p{
+  font-style: testimonials-para;
+  font-size:10px;
+}
+.testimonial4_slide_2{
+	width:48%;
+}
+.testimonial4_slide_3{
+	width:51%!important;
+margin-right:0px!important;
+}
+.testimonial4_slide_5{
+	margin-right:0px;
+	width:47%;
+}
+
+.carousel-control {
+  top:50%!important;
+}
+
+.footer-txt{
+  font-size: 10px;
+  font-style: footer_text;
+}
+
+.foot-desc{
+  font-style: services_text;
+  font-size: 12px;
+}
+
+.footer_tile{
+  width:80%!important;
+}
+.social-media a{
+	padding: 10px;
+margin: 5px;
+}
+
+.social-media a i{
+	width: 20px;
+height: 19px;
+}
+.social-media {
+    margin-top: 25px;
+}
+.social{
+	font-size: 18px !important;
+}
+.footer_brand{
+  width:250px!important;
+}
+.padding-30-t{
+  padding:50px 0px!important;
+}
+#site-logo img{
+  width:250px!important;
+}
+/*end...*/
 }
 /*high resolution style end*/
 
