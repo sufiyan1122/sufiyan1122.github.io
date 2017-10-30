@@ -78,7 +78,19 @@ html,body
     .padd-bottom-img{
     	padding-bottom:250px;
     }
+    .carousel-indicators{
+      bottom: -8px!important;
+    }
+    .carousel-control{
+      margin-bottom: 5%!important;
+    }
+    .carousel-control.left{
+      left:7px!important;
+    } 
 
+    .carousel-control.right{
+      right:7px!important;
+    } 
     .social-media a{
     padding: 21px;
     color: #1F1D20;
@@ -110,6 +122,15 @@ html,body
     }
     .navbar-collapse{
       margin-top: 34px;
+    }
+    .carousel-indicators li{
+      height:5px;
+      width:5px;
+    }
+
+    .carousel-indicators .active{
+      height:7px;
+      width:7px;
     }
 
     .navbar-nav > li > a{
@@ -652,7 +673,7 @@ color: #AAA;
 
 .carousel-indicators {
     position: absolute;
-    bottom: -8px;
+    bottom: 10px;
     left: 50%;
     z-index: 15;
     width: 70%;
