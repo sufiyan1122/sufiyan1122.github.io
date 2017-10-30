@@ -124,13 +124,13 @@ html,body
       margin-top: 34px;
     }
     .carousel-indicators li{
-      height:5px;
-      width:5px;
+      height:3px;
+      width:3px;
     }
 
     .carousel-indicators .active{
-      height:7px;
-      width:7px;
+      height:4px;
+      width:4px;
     }
 
     .navbar-nav > li > a{
