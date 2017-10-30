@@ -78,6 +78,13 @@ html,body
     .padd-bottom-img{
     	padding-bottom:250px;
     }
+    .logo-sm{
+    	width:170px!important;
+    }
+    
+    .sm-padding-top-carousel{
+    	padding-top: 102px!important;
+    }
     .carousel-indicators{
       bottom: -8px!important;
     }
@@ -121,11 +128,29 @@ html,body
     	padding-top:30px;
     }
     .navbar-collapse{
-      margin-top: 34px;
+      margin-top: 19px;
+    }
+    .navbar-nav > li > a{
+    	line-height: 16px!important;
     }
     .carousel-indicators li{
       height:3px;
       width:3px;
+    }
+
+    .para{
+    	margin: 0px 0px 0px 0px!important;
+		font-size: 11px!important;
+		line-height: 1.4em!important;
+		padding-left: 10px!important;
+    }
+    .sm_2_para_space{
+    	display:inline-block;
+    	margin-top: 30px
+    }
+
+    .para_s_sm{
+    	border-left: 1px solid #000;
     }
 
     .carousel-indicators .active{
@@ -1044,7 +1069,11 @@ margin-right:0px!important;
 }
 }
 
-
+@media (min-width: 0px) and (max-width: 767px) {
+    .navbar{
+    	height: 102px!important;
+    }
+}
 
 
 
