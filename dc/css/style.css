@@ -75,6 +75,22 @@ html,body
 }
 
     @media (min-width: 0px) and (max-width: 768px) {
+    	.footer_brand{
+    		width:170px!important;
+    	}
+    	.div-footer{
+    		padding-top: 5px!important;
+    	}
+    	.icon-3{
+    		font-size: 1em!important;
+    		padding-bottom: 5px!important;
+    	}
+    	.marg-t-7{
+    		margin-top: 7px!important;
+    	}
+    	.footer-txt p{
+    		font-size: 9px!important;
+    	}
     .portfolio-h h2,.services-h h2,.testimonial-h h2,.contact-us h2{
   font-size:15px;
     letter-spacing: 7px;
@@ -126,9 +142,8 @@ width:15px;
     padding: 21px;
     color: #1F1D20;
     background-color: #fff;
-    padding: 20px;
-    padding: 14px;
-    margin: 19px;
+    padding: 0px!important;
+    margin: 0px!important;
     border: 1px solid #FFF;
     display: inline-block;
     border-radius: 50%;
@@ -1107,6 +1122,13 @@ margin-right:0px!important;
 margin-left:0px!important; 
 }
 
+.foot-desc{
+	font-size: 9px;
+}
+.foot{
+	margin-top:5px!important;
+	padding:10px 0px 5px 0px!important; 
+}
 .ser-up1{
 bottom:75px;
 }
@@ -1120,6 +1142,34 @@ bottom:75px;
 }
 .ser-link a{
 	font-size: 9px;
+}
+
+input[type="text"],input[type="email"]{
+  border:1px solid #6f6f6f;
+  border-radius: 0px;
+  margin: 5px;
+      padding: 0px 10px;
+    font-size: 9px;
+
+}
+
+#description{
+  height:100px;
+ border:1px solid #6f6f6f;
+  border-radius: 0px;
+  margin: 5px ;
+    font-size: 9px;
+
+
+}
+
+.send-msg{
+  background-color: #1F1D20!important;
+  border:1px solid #1F1D20;
+  color:#fff;
+  border-radius: 0px;
+      font-size: 9px;
+
 }
 }
 .border-15{
