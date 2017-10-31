@@ -75,6 +75,30 @@ html,body
 }
 
     @media (min-width: 0px) and (max-width: 768px) {
+    .portfolio-h h2,.services-h h2,.testimonial-h h2,.contact-us h2{
+  font-size:15px;
+    letter-spacing: 7px;
+    margin-bottom: 0px; 
+}
+
+.portfolio-h h6,.services-h h6,.testimonial-h h6,.contact-us h6{
+  font-size:9px!important;
+  margin:0px auto 5px auto; 
+
+}
+
+.dotted-line{
+width:100px;
+}
+
+.dotted-line.serv{
+	margin-bottom: 0px!important;
+}
+
+.down-aarrow{
+width:15px;
+}
+
     .padd-bottom-img{
     	padding-bottom:250px;
     }
@@ -119,7 +143,7 @@ html,body
 	min-width: 100%;
 }
 .ser-h4{
-	left:30px!important;
+	left:20px!important;
 }
 }
 
@@ -133,10 +157,14 @@ html,body
     .navbar-nav > li > a{
     	line-height: 16px!important;
     }
+    .padding-30{
+    	padding:8px 0px!important;
+    }
     .carousel-indicators li{
       height:3px;
       width:3px;
     }
+
 
     .para{
     	margin: 0px 0px 0px 0px!important;
@@ -465,12 +493,12 @@ bottom:140px;
   bottom:60px;
 }
 .ser-up1{
-bottom:200px;
+bottom:75px;
 }
 
 .ser-h4{
   left:20px;
-  font-size:15px!important;
+  font-size:9px!important;
 }
 
 }
@@ -480,6 +508,7 @@ bottom:200px;
   margin:5px;
   font-family: heading;
   letter-spacing: 3px;
+  cursor: pointer;
  }
 
  .ser-link{
@@ -1073,8 +1102,29 @@ margin-right:0px!important;
     .navbar{
     	height: 102px!important;
     }
+
+    .port-color-white h6{
+margin-left:0px!important; 
 }
 
+.ser-up1{
+bottom:75px;
+}
+
+.ser-h4{
+	font-size: 9px!important;
+}
+
+.border-15{
+	border:5px solid #fff!important;
+}
+.ser-link a{
+	font-size: 9px;
+}
+}
+.border-15{
+	border:15px solid #fff;
+}
 
 
 @media (min-width: 1000px) {
