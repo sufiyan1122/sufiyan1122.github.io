@@ -176,7 +176,7 @@ width:15px;
     	line-height: 16px!important;
     }
     .padding-30{
-    	padding:8px 0px!important;
+    	padding:15px 0px!important;
     }
     .carousel-indicators li{
       height:3px;
@@ -192,7 +192,7 @@ width:15px;
     }
     .sm_2_para_space{
     	display:inline-block;
-    	margin-top: 30px
+    	margin-top: 18px
     }
 
     .para_s_sm{
@@ -1115,12 +1115,14 @@ margin-right:0px!important;
   width:450px!important;
 }
 }
-
+.carousel-control{
+	z-index: 3500;
+}
 @media (min-width: 0px) and (max-width: 767px) {
     .navbar{
     	height: 102px!important;
     }
-
+    .hp{left:5%!important;}
     .port-color-white h6{
 margin-left:0px!important; 
 }
@@ -1129,7 +1131,7 @@ margin-left:0px!important;
 	font-size: 9px;
 }
 .foot{
-	margin-top:5px!important;
+	margin-top:15px!important;
 	padding:10px 0px 5px 0px!important; 
 }
 .ser-up1{
@@ -1145,6 +1147,8 @@ bottom:75px;
 }
 .ser-link a{
 	font-size: 9px;
+	margin:0px;
+	letter-spacing: 1px;
 }
 
 input[type="text"],input[type="email"]{
@@ -1162,7 +1166,7 @@ input[type="text"],input[type="email"]{
   border-radius: 0px;
   margin: 5px ;
     font-size: 9px;
-
+    padding:10px;
 
 }
 
