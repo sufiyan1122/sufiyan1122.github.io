@@ -26,6 +26,15 @@
 	</style>
 </head>
 <body id="home" style="overflow-x:hidden!important">
+
+  <!-- preloader start -->
+<div id="preloader1" style="position: fixed;top:0px;left:0px;background-color:#FFF;width:100%;height:100%;z-index: 6000">
+  <img class="img-responsive" style="margin:19% auto 20px auto;" src="image/logo.png">
+  <img class="img-responsive" style="margin:0 auto;width:60px;padding-left:16px;" src="image/loading.gif">
+
+</div>
+<!-- preloader end -->
+
 <!-- navigation start -->
   <header>
 	<nav class="navbar navbar-color" style="position:absolute;top:0px;z-index:3000;width:100%;">
@@ -450,13 +459,6 @@
 </section>
 <!-- footer end -->
 
-<!-- preloader start -->
-<div id="preloader1" style="position: fixed;top:0px;left:0px;background-color:#FFF;width:100%;height:100%;z-index: 6000">
-  <img class="img-responsive" style="margin:19% auto 20px auto;" src="image/logo.png">
-  <img class="img-responsive" style="margin:0 auto;width:60px;padding-left:16px;" src="image/loading.gif">
-
-</div>
-<!-- preloader end -->
 
 <div id="slide_show" style="position: fixed;top:0px;left:0px;background-color: rgba(0,0,0,0.8);width:100%;height:100%;z-index: 3400">
   <div class="ma5slider anim-horizontal horizontal-navs inside-navs loop-mode" style="padding-top:30px;">
@@ -484,6 +486,9 @@
     <!-- Call the script -->
   <script>
 
+$(window).on("load",function(){
+    $("#preloader1").hide();
+});
         
         $(document).ready(function(){
 
@@ -569,9 +574,6 @@
   });
 
   
-$(window).on("load",function(){
-    $("#preloader1").hide();
-});
 
  </script> 
 </body>
