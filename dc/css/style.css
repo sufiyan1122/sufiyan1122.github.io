@@ -70,7 +70,10 @@ html,body
       .navbar-color li a span{
   	color:#fff!important;
   }
-
+  .nav-justified {
+    width: 80%;
+    margin: 0px 10%!important;
+}
 
 }
 
