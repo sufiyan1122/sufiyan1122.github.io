@@ -123,6 +123,7 @@ width:15px;
     }
     .logo-sm{
     	width:170px!important;
+      margin-left: 13px;
     }
     
     .sm-padding-top-carousel{
@@ -416,10 +417,10 @@ font-size: .8em;
     font-size: 2em;
 }
 .carousel-control.right {
-  right:10px;
+  right:20px;
 }
 .carousel-control.left {
-  left: 10px;
+  left: 20px;
 }
 
 .port-color-dark{
@@ -773,6 +774,7 @@ color: #AAA;
 	}
 }
 
+
 @media (min-width: 768px) and (max-width: 991px){
   .testimonial4_control_button .carousel-control.left{
     left: 5%;
@@ -928,7 +930,7 @@ font-family: 'Roboto', sans-serif;;font-size: 15px;margin-top:5px;
 
 
 .navbar{
-
+border-radius: 0px!important;
 height:120px!important;
 
 }
@@ -938,6 +940,61 @@ height:120px!important;
       background-repeat: no-repeat;
       background-position: right bottom;
 }
+@media (max-width: 768px){
+
+.back_lg{
+   background-image: url(../image/about-us-back_sm.png)!important;
+  }
+}
+@media (min-width: 768px){
+.port-color-white h6{
+      margin-left: 0px!important;
+}
+.no-padding-left{
+padding-left:2px!important;
+}
+.carousel-indicators li{
+      height:6px!important;
+      width:6px!important;
+    }
+
+.carousel-indicators li.active{
+      height:7px!important;
+      width:7px!important;
+    }
+}    
+@media (width: 768px){
+  .navbar{
+     height:102px!important;
+
+  }
+
+  .nav li a {
+    font-size: 7px;
+}
+
+.navbar-color li a{
+  padding-top: 38px;
+}
+}
+
+@media (min-width: 768px) {
+.container>.navbar-collapse{
+
+margin-left: -27px;}
+}
+
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+  .ser-h4{
+    font-size: 8px!important;
+  }
+
+  .footer-txt p{
+        padding-top: 13px;
+
+  }
+}
 
 
 /*high resolution style start*/
@@ -945,6 +1002,11 @@ height:120px!important;
 .nav-container{
   width:90%;
 } 
+
+
+.send-msg-btn{
+  margin:30px auto;
+}
 #site-logo {
     position: relative;
     vertical-align: bottom;
@@ -962,6 +1024,7 @@ height:120px!important;
 .hp{
   bottom:-30px;
 }
+
 
 .navbar{
   height:150px!important;
@@ -1241,7 +1304,7 @@ line-height: 68px;
   }
 
 .navbar-color li a{
-    font-size: 11px;
+    font-size: 8px;
     padding-top: 65px;
         display: inline-block;
     padding: 40px 0px 0px 0px;
@@ -1324,7 +1387,7 @@ margin-top: 0px!important;
 line-height: 15px;
 }
 .back_lg{
-      background-image: url(../image/about-us-back.png)!important;
+      background-image: url(../image/about-us-back_sm.png)!important;
       background-repeat: no-repeat;
       background-position: right bottom;
   }
@@ -1450,4 +1513,11 @@ height: 19px;
 
 .back_img{
 	min-width: 100%!important;
+}
+
+@media (min-width: 769px){
+.nav-justified {
+    width: 80%;
+    margin-left: 10%!important;
+}
 }
