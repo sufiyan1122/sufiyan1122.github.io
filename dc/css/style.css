@@ -1203,6 +1203,10 @@ margin-right:0px!important;
 .carousel-control{
 	z-index: 3500;
 }
+
+
+
+
 @media (min-width: 0px) and (max-width: 767px) {
     .navbar{
     	height: 102px!important;
@@ -1549,6 +1553,10 @@ height: 19px;
 
 
 /*new rules*/
+
+#logo-navbar-middle{
+  margin-top: -100px!important;
+}
 .n_s:hover{
 background-color: rgba(0,0,0,0)!important;
 color:#fff!important;
@@ -1561,8 +1569,25 @@ cursor: pointer;
     display: inline-block!important;
     padding:1px!important;
   }
+
+  #logo-navbar-middle{
+  margin-top: 0px!important;
+}
   }
 
+@media (min-width: 768px)  {
+.n_s1{
+  height:0px!important;
+  display: none!important;
+  visibility: hidden!important;
+}
+.n_s2{
+  position: absolute!important;
+  top:108%!important;
+  left:41%;
+  padding:1px!important; 
+}
+}
 
 @media (min-width: 767px) and (max-width: 1020px){
 a.n_s{
@@ -1570,10 +1595,19 @@ a.n_s{
   padding-top:0px!important;
   padding-left:0px!important;
   padding-right:0px!important;
-
-
 }
-.special_casse_li_nav a{
 
+#logo-navbar-middle{
+  margin-top: -20px!important;
+}
+.navbar-nav > li{
+  vertical-align: top!important;
+}
+.n_s2{
+  position: absolute!important;
+  top:75%!important;
+  left:41%;
+  padding:1px!important; 
 }
 }
+
