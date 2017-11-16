@@ -1573,6 +1573,11 @@ cursor: pointer;
   #logo-navbar-middle{
   margin-top: 0px!important;
 }
+
+.no-padding-left{
+  padding-left:7px!important;
+}
+
   }
 
 @media (min-width: 768px)  {
