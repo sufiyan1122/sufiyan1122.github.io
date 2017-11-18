@@ -1578,6 +1578,9 @@ cursor: pointer;
   padding-left:7px!important;
 }
 
+.lp-slider-img{
+ max-width: 100%!important; 
+}
   }
 
 @media (min-width: 768px)  {
@@ -1591,6 +1594,13 @@ cursor: pointer;
   top:108%!important;
   left:41%;
   padding:1px!important; 
+}
+.lp-slider-img{
+ max-width: 40%!important; 
+}
+
+#close{
+  margin-right: 10px!important;
 }
 }
 
