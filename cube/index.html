@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+#wrapD3Cube {
+    width: 250px;
+    height: 213px;
+    margin: 20px auto;
+    background-color: #EEE;
+}
+#D3Cube {
+    width: 112px;
+    height: 112px;
+    top: 50px;
+    transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
+    -moz-transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
+    -webkit-transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
+    margin: auto;
+    position: relative;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+#D3Cube > div {
+    position: absolute;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    width: 112px;
+    height: 112px;
+    float: left;
+    overflow: hidden;
+    opacity: 0.85;
+    border:1px solid #000;
+}
+#side1 {
+    transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: rotatex(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    /*background-color: #FFF;*/
+}
+#side2 {
+    transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: rotateY(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    /*background-color: #ffaf1c;*/
+}
+#side3 {
+    transform: translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: translateX(0px) translateY(0px) translateZ(56px);
+    /*background-color: #58d568;*/
+}
+#side4 {
+    transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: rotateY(90deg) translateX(0px) translateY(0px) translateZ(56px);
+    /*background-color: #ed3030;*/
+}
+#side5 {
+    transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: rotateY(180deg) translateX(0px) translateY(0px) translateZ(56px);
+    /*background-color: #1c5ffe;*/
+}
+#side6 {
+    transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -moz-transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    -webkit-transform: rotateX(-90deg) translateX(0px) translateY(0px) translateZ(56px);
+    /*background-color: #f2f215;*/
+}
+
+#point{
+	background-color:#000;border:1px solid #000;width:7px;height:7px;display:inline-block;border-radius:5px;
+	 transform: rotateY(0deg) translateX(131px) translateY(-37px) translateZ(0px);
+    -moz-transform: rotateY(0deg) translateX(131px) translateY(-37px) translateZ(0px);
+    -webkit-transform: rotateY(0deg) translateX(131px) translateY(-37px) translateZ(0px);
+}
+
+	</style>
+
+	</head>
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript">
+
+	function plot(x,y){
+	var segs = "rotateX(0deg)translateX("+x+"px) translateY("+y+"px) translateZ(0px)";
+	$("#point").css({"-webkit-transform":segs});
+}
+
+function traverseUpper(){
+	var cor=[[135,-39],[139,-41],[143,-43],[147,-45],[151,-47],[155,-49],[159,-51],[163,-53],[167,-55],[171,-57],[175,-59],[179,-61],[183,-63],[187,-65],[191,-67],[195,-69],[199,-71],[192,-73],[185,-75],[178,-77],[171,-79],[164,-81],[157,-83],[150,-85],[143,-87],[136,-89],[129,-91],[122,-93],[115,-95],[108,-97],[106,-94],[100,-91],[94,-88],[88,-85],[82,-82],[76,-79],[70,-76],[64,-73],[58,-70],[52,-67],[46,-64],[54,-59],[62,-57],[70,-55],[78,-53],[86,-51],[94,-49],[102,-47],[110,-45],[118,-43],[126,-41],[131,-37],[131,-33],[131,-30],[131,-26],[131,-23],[131,-20],[131,-17],[131,-15],[131,-12],[131,-10],[131,-6],[131,-3],[131,0],[131,0],[131,3],[131,6],[131,9],[131,12],[131,15],[131,18],[131,21],[131,24],[131,27],[131,30],[131,33],[131,36],[131,39],[131,42],[131,45],[131,48],[131,51],[131,54],[131,57],[131,60],[131,63],[131,66],[135,66],[139,64],[143,62],[147,60],[151,58],[155,56],[159,54],[163,52],[167,50],[171,48],[175,46],[179,44],[183,42],[187,40],[191,38],[195,36],[199,34],[192,32],[185,30],[178,28],[171,26],[164,24],[157,22],[150,20],[143,18],[136,16],[129,14],[122,12],[115,10],[108,8],[106,11],[100,14],[94,17],[88,20],[82,23],[76,26],[70,29],[64,32],[58,35],[52,38],[46,41],[54,46],[62,48],[70,50],[78,52],[86,54],[94,56],[102,58],[110,60],[118,62],[126,64],[131,68],[135,66],[139,64],[143,62],[147,60],[151,58],[155,56],[159,54],[163,52],[167,50],[171,48],[175,46],[179,44],[183,42],[187,40],[191,38],[195,36],[199,34],[199,34],[199,31],[199,28],[199,25],[199,22],[199,19],[199,16],[199,13],[199,10],[199,7],[199,4],[199,1],[199,-2],[199,-5],[199,-8],[199,-11],[199,-14],[199,-17],[199,-20],[199,-23],[199,-26],[199,-29],[199,-32],[199,-35],[199,-38],[199,-41],[199,-44],[199,-47],[199,-50],[199,-53],[199,-56],[199,-59],[199,-62],[199,-65],[199,-68],[199,-71],[199,-71],[192,-73],[185,-75],[178,-77],[171,-79],[164,-81],[157,-83],[150,-85],[143,-87],[136,-89],[129,-91],[122,-93],[115,-95],[112,-97],[112,-97],[112,-94],[112,-91],[112,-88],[112,-85],[112,-82],[112,-79],[112,-76],[112,-73],[112,-70],[112,-67],[112,-64],[112,-61],[112,-58],[112,-55],[112,-52],[112,-49],[112,-46],[112,-43],[112,-40],[112,-37],[112,-34],[112,-31],[112,-28],[112,-25],[112,-22],[112,-19],[112,-16],[112,-13],[112,-10],[112,-7],[112,-4],[112,-1],[112,2],[112,5],[112,8],[108,8],[106,11],[100,14],[94,17],[88,20],[82,23],[76,26],[70,29],[64,32],[58,35],[52,38],[46,41],[42,42],[42,39],[42,36],[42,33],[42,30],[42,27],[42,24],[42,21],[42,18],[42,15],[42,12],[42,9],[42,6],[42,3],[42,0],[42,-3],[42,-6],[42,-9],[42,-12],[42,-15],[42,-18],[42,-21],[42,-24],[42,-27],[42,-30],[42,-33],[42,-36],[42,-39],[42,-42],[42,-45],[42,-48],[42,-51],[42,-54],[42,-57],[42,-60],[42,-62]
+];
+		var i=0;
+		setInterval(function(){
+		plot(cor[i][0],cor[i][1]);
+		console.log(cor[i][0],cor[i][1]);
+		if(i<cor.length-1)
+			{i+=1;}
+		else{
+			i=0;
+		}
+		},200)
+	}
+	
+
+/*
+
+{135,-39}
+{139,-41}
+{143,-43}
+{147,-45}
+{151,-47}
+{155,-49}
+{159,-51}
+{163,-53}
+{167,-55}
+{171,-57}
+{175,-59}
+{179,-61}
+{183,-63}
+{187,-65}
+{191,-67}
+{195,-69}
+{199,-71}
+
+{192,-73}
+{185,-75}
+{178,-77}
+{171,-79}
+{164,-81}
+{157,-83}
+{150,-85}
+{143,-87}
+{136,-89}
+{129,-91}
+{122,-93}
+{115,-95}
+{108,-97}
+
+
+{106,-94}
+{100,-91}
+{94,-88}
+{88,-85}
+{82,-82}
+{76,-79}
+{70,-76}
+{64,-73}
+{58,-70}
+{52,-67}
+{46,-64}
+
+{54,-59}
+{62,-57}
+{70,-55}
+{78,-53}
+{86,-51}
+{94,-49}
+{102,-47}
+{110,-45}
+{118,-43}
+{126,-41}
+{134,-39}
+*/
+		</script>
+
+<div id="wrapD3Cube">
+    <div id="D3Cube">
+        <div id="side1"></div>
+        <div id="side2"></div>
+        <div id="side3"></div>
+        <div id="side4"></div>
+        <div id="side5"></div>
+        <div id="side6"></div>
+    </div>
+<span id="point" ></span>
+</div>
+<p style="text-align: center;">
+    <a onclick="traverseUpper()">Start animation</a>
+</p>
+
+	</body>
+	</html>
