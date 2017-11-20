@@ -1596,7 +1596,7 @@ cursor: pointer;
   padding:1px!important; 
 }
 .lp-slider-img{
- max-width: 40%!important; 
+ min-width: 40%!important; 
 }
 
 #close{
@@ -1626,3 +1626,59 @@ a.n_s{
 }
 }
 
+
+
+
+
+
+/*---------*/
+
+@media (min-width: 767px) and (max-width: 768px){
+.navbar {
+    border-radius: 0px !important;
+    height: 102px !important;
+}
+
+#logo-navbar-middle {
+    margin-top: 28px !important;
+}
+
+.navbar-toggle{
+  padding: 34px 10px!important;
+}
+
+}
+
+
+@media (min-width: 770px) and (max-width: 999px){
+
+.nav-justified{
+  margin-left:0px!important;
+}
+
+#logo-navbar-middle{
+  margin-top: -10px !important;
+}
+
+}
+
+@media (min-width: 1000px) and (max-width: 1020px){
+
+#logo-navbar-middle{
+  margin-top: -33px !important;
+}
+
+.n_s2{
+  top: 100% !important;
+left: 33%!important;
+}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 999px){
+.nav-justified {
+    margin-left: 7% !important;
+}
+
+}
