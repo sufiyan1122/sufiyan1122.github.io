@@ -1682,3 +1682,37 @@ left: 33%!important;
 }
 
 }
+
+
+@media (max-width: 767px){
+  .dc{
+    padding-top:10px!important;
+  }
+
+  .webcos{
+    padding-top:0px!important;
+  }
+
+  .bigbox{
+    padding-top:4px!important;
+  }
+}
+
+
+@media (max-width: 320px){
+ .whatsapp{
+    margin-left:-8px!important;
+  } 
+}
+
+@media (min-width: 321px) and (max-width: 375px){
+ .whatsapp{
+    margin-left:-4px!important;
+  } 
+}
+
+@media (min-width: 376px) and (max-width: 425px){
+ .whatsapp{
+    margin-left:0px!important;
+  } 
+}
